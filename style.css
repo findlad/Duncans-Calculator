@@ -1,0 +1,46 @@
+/* margin padding box-sizing reset */
+* {
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 400;
+  color: #390505;
+  text-align: center;
+}
+
+button {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  background-color: #00c57a;
+  border: 1px solid #390505;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+
+input {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #390505;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #390505;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
